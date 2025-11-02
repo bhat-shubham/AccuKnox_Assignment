@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Thu Oct 30 11:28:04 2025 as: /usr/lib/nmap/nmap -sV -Pn --script=banner --reason -oA ./evidence_20251030_112749/nmap www.itsecgames.com
+Nmap scan report for www.itsecgames.com (31.3.96.40)
+Host is up, received user-set (0.26s latency).
+rDNS record for 31.3.96.40: web.mmebvba.com
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE  REASON         VERSION
+22/tcp  open  ssh      syn-ack ttl 45 OpenSSH 6.7p1 (protocol 2.0)
+|_banner: SSH-2.0-OpenSSH_6.7p1
+80/tcp  open  http     syn-ack ttl 45 Apache httpd
+|_http-server-header: Apache
+443/tcp open  ssl/http syn-ack ttl 47 Apache httpd
+|_http-server-header: Apache
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 30 11:29:09 2025 -- 1 IP address (1 host up) scanned in 65.98 seconds

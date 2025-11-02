@@ -1,0 +1,3 @@
+;; communications error to 192.168.0.1#53: timed out
+itsecgames.com.
+31.3.96.40
